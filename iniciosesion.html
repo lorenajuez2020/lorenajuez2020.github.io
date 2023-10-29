@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+</head>
+
+    <Hx>BIENVENIDO A PAPELERÍA L Y D</Hx>
+    <h1>Iniciar Sesión</h1>
+    <body>
+        
+    <form action="verificar_sesion.php" method="post">
+        <label for="cedula">Usuario:</label>
+        <input type="text" id="cedula" name="cedula" required><br><br>
+
+        <label for="clave">Clave:</label>
+        <input class="bottom" type="password" id="clave" name="clave" required><br><br>
+
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+    <p>¿No tienes una cuenta? <a href="agregar.html">Regístrate aquí</a></p>
+</body>
+</html>

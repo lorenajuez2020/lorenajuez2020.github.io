@@ -1,0 +1,44 @@
+/*Estilos generales*/
+
+html{
+    font-family: helvetiva, arial. sans-serif;
+    font-size: 10px;
+    font-color: "#008000";
+
+}
+
+h1{
+   margin right: 2px;
+   shape-margin: 50px;
+   text-align: left;
+      color: blue;
+      font-size: 15px;
+
+    }
+
+body{
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/382/062/non_2x/back-to-school-stationery-background-free-vector.jpg);
+    margin-right: 500px;
+    margin-left: 700px;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.buttons{
+    width: 150px;
+    height: 40px;
+    background: #red;
+    border: none;
+    margin-bottom: 19px;
+}
+
+.controls{
+    widtth: 100px;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+}

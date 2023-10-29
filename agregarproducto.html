@@ -1,0 +1,29 @@
+<title>Agregue su nuevo productos</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+</head>
+<body>
+
+
+     <form action="guardanp.php" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="descripcion"> Breve descripcion :</label>
+        <input type="text" id="descripcion" name="descripcion" required><br><br>
+        
+        <label for="precio"> Precio: </label>
+        <input type="text" id="precio" name="precio" required><br><br>
+
+       
+        <label for="imagen">Selecciona una imagen:</label>
+        <input type="file" name="imagen" id="imagen">
+        
+
+
+        <input type="submit" value="Crear nuevo producto">
+
+    </form>
+</body>
+</html>
